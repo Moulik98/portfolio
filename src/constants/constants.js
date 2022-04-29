@@ -5,7 +5,7 @@ export const projects = [
       image: 'https://i.ibb.co/chRfJzs/ps-index.png',
       tags: ['HTML', 'CSS','JavaScript'],
       source: 'https://github.com/Moulik98/pluralsight_clone.git',
-      visit: 'https://comfy-crisp-eb53a8.netlify.app/',
+      visit: 'https://pluralsight-c.netlify.app/',
     id: 0,
   },
   {
