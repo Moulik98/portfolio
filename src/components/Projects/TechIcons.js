@@ -7,34 +7,34 @@ import { SiRedux, SiJson, SiHtml5, SiVisualstudiocode, SiJavascript } from 'reac
 
 const TechIcons = ({tag}) => {
     if(tag === 'HTML')
-    return <SiHtml5 size = '35%' color = "#DC4A25"/>
+    return <SiHtml5 size = '35%' color = "#9cc9e3"/>
     else if(tag === 'Firebase')
-        return <DiFirebase size = '35%' color='#F7C428'/>
+        return <DiFirebase size = '35%' color='#9cc9e3'/>
     else if(tag === 'Mongodb')
-        return <DiMongodb size = '35%' color = '#559134'/>
+        return <DiMongodb size = '35%' color = '#9cc9e3'/>
     else if(tag === 'Node')
-        return <FaNode size = '35%'/>
+        return <FaNode size = '35%' color = '#9cc9e3'/>
     else if(tag === 'CSS')
-        return <DiCss3 size = '35%'  color = "#2171B6"/>
+        return <DiCss3 size = '35%'  color = "#9cc9e3"/>
     else if(tag === 'JavaScript')
-        return <SiJavascript size = '35%' color = '#EFD81C'/>
+        return <SiJavascript size = '35%' color = '#9cc9e3'/>
     else if(tag === 'JSON')
-        return <SiJson size = '35%'/>
+        return <SiJson size = '35%' color = '#9cc9e3'/>
     else if (tag === 'React')
-    return <DiReact size = '35%' color = '#5ED4F3' />  
+    return <DiReact size = '35%' color = '#9cc9e3' />  
     else if(tag === 'Redux')
-        return <SiRedux size = '35%' color = '#7248B6'/> 
+        return <SiRedux size = '35%' color = '#9cc9e3'/> 
     // else if(tag === 'Linux')
     //     return <FcLinux size = '35%'/>
     // else if(tag === 'Windows')
     //     return <DiWindows size = '35%'/>
     else if(tag === 'VS code')
-        return <SiVisualstudiocode size = '35%' color = '#2174B3'/>
+        return <SiVisualstudiocode size = '35%' color = '#9cc9e3'/>
     else if(tag === 'Java')
-        return <DiJava size = '35%' color = '#E06C00'/>
+        return <DiJava size = '35%' color = '#9cc9e3'/>
     else if(tag === 'ExpressJS')
-        return <FaNodeJs size = '35%' color = '#E06C00'/>
-    return <SiRedux size = '35%'/>
+        return <FaNodeJs size = '35%' color = '#9cc9e3'/>
+    return <SiRedux size = '35%' color = '#9cc9e3'/>
     
    
 }
