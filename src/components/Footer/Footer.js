@@ -44,11 +44,8 @@ const Footer = () => {
       
       <Contact />
       <SocialIconsContainer>
-        <CompanyContainer>
-          {/* <Slogan>Inspriration from Dev John</Slogan> */}
-        </CompanyContainer>
         <SocialContainer>
-        <SocialIcons href="mailto:soumamoulik@gmail.com" target="_blank">
+        {/* <SocialIcons href="mailto:soumamoulik@gmail.com" target="_blank">
             <AiOutlineMail size="3rem"/>
           </SocialIcons>
           <SocialIcons href="https://github.com/Moulik98" target="_blank">
@@ -65,7 +62,7 @@ const Footer = () => {
             target="_blank"
           >
             <AiFillTwitterCircle size="3rem" />
-          </SocialIcons>
+          </SocialIcons> */}
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

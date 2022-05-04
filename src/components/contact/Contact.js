@@ -27,7 +27,7 @@ export function Contact() {
   return (
     <Container>
       <form onSubmit={handleSubmit}>
-        <FormHeading>Contact Form</FormHeading>
+        {/* <FormHeading>Contact Form</FormHeading>
         <TextContainer>
           <Label>Name</Label>
           <Input type="text" name="name" />
@@ -46,8 +46,8 @@ export function Contact() {
         </TextContainer>
         <ButtonDiv>
           <Submit>Submit</Submit>
-        </ButtonDiv>
+        </ButtonDiv> */}
       </form>
-    </Container>
+</Container>
   );
 }
