@@ -35,7 +35,7 @@ const Hero = (props) => (
 
 
 
-   <Button onClick = {() => window.open('https://drive.google.com/file/d/1zVlg77x8LVadRA14qwExO21VUXsXfLQF/view?usp=sharing', '_blank')}>My Resume </Button>
+   <Button onClick = {() => window.open('https://drive.google.com/drive/folders/1vD4PCrhxQGf0vqkMCJtdHjWzcV1MBNM8', '_blank')}>My Resume </Button>
 
 
 
